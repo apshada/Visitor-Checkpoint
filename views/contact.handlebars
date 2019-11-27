@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acme Web Design</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="public/css/style.css">
+    <script>
+        function tim() {
+            var d = new Date();
+            var n = d.toLocaleString();
+            document.querySelector('#check').value = n;
+            console.log(n);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Innovaccar</span></h1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                <h3>Entry System Sotware</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i> San Francisco, US (HQ) 535 Mission St Suite 1829, Floor 18th, San
+                        Francisco</li>
+                    <li><i class="fa fa-phone"></i> Search Results
+                        (0120) 431 1139</li>
+                    <li><i class="fa fa-envelope"></i>vishesh.s@innovaccer.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Visitor's Checkpoint</h3>
+                {{msg}}
+                <form method="POST" action="send">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="visitorname">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="visitoremail">
+                    </p>
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="visitorphone">
+                    </p>
+
+                    <p>
+                        <label>Check-out</label>
+                        <input type="time" name="visitorcheckout">
+                    </p>
+
+
+
+                    <h3>Host's Checkpoint</h3><br />
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="hostname">
+                    </p>
+
+                    <p>
+                        <label>Number</label>
+                        <input type="text" name="hostnumber">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="hostemail">
+                    </p>
+
+                    <p class="full">
+                        <button type="submit" onclick="tim()">Submit</button>
+                    </p>
+
+                    <p>
+                        <input type="hidden" id="check" name="checkin">
+                    </p>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
