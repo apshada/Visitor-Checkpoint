@@ -23,11 +23,11 @@
 
 ## What is Visitors Checkpoint?
 
-It is a Entry maangement Application in which it takes details from visitors like -:
-* Visitor's name
+It is a Entry mangement Application in which it takes details from visitors like -:
+* Visitor's Name
 * Visitor's Number
 * Visitor's Email Address
-* check-out Time
+* Check-out Time
 * Host's name
 * Host's Number
 * Host's Email Address
