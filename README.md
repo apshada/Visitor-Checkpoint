@@ -5,6 +5,21 @@
 * Git
 * Contentful CLI (only for write access)
 
+### Application User Interface
+
+![Screenshot](https://user-images.githubusercontent.com/49001649/69724496-06ee0f80-1142-11ea-99b8-8a72698adfff.png)
+
+#### visitor's Email and Message
+<img src="https://user-images.githubusercontent.com/49001649/69725910-4f5afc80-1145-11ea-9c0a-6f56b2b1394c.jpeg" width="300" heigth="300">
+<img src="https://user-images.githubusercontent.com/49001649/69725929-5eda4580-1145-11ea-8a1d-03e1f9720d04.png" width="300" heigth="300" >
+
+#### Host's Email and Message
+
+<img src="https://user-images.githubusercontent.com/49001649/69726168-f475d500-1145-11ea-9aed-b1a3979dc5ab.jpeg" width="200" heigth="200">
+<img src="https://user-images.githubusercontent.com/49001649/69726014-921cd480-1145-11ea-8545-99edc002e739.png" width="200" heigth="200">
+
+
+
 
 ## What is Visitors Checkpoint?
 
@@ -36,8 +51,8 @@ used timestamp for checkin Time that is whenever visitor clicks on submit button
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/contentful/the-example-app.nodejs.git
-cd the-example-app.nodejs
+git clone https://github.com/apshada/Visitor-Checkpoint.git
+cd Visitor-Checkpoint
 ```
 
 ```bash
