@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "nexmo": "^2.5.1",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "path": "^0.12.7",
     "socket.io": "^2.3.0"
   }
